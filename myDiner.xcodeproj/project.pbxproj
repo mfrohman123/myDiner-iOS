@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		387DC88824E6F0070059D94F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 387DC88424E6F0070059D94F /* Roboto-Light.ttf */; };
+		387DC88924E6F0070059D94F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 387DC88524E6F0070059D94F /* Roboto-Bold.ttf */; };
+		387DC88A24E6F0070059D94F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 387DC88624E6F0070059D94F /* Roboto-Regular.ttf */; };
+		387DC88B24E6F0070059D94F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 387DC88724E6F0070059D94F /* Roboto-Thin.ttf */; };
 		38E7BC64247C4201004E503D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BC63247C4201004E503D /* AppDelegate.swift */; };
-		38E7BC66247C4201004E503D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BC65247C4201004E503D /* SceneDelegate.swift */; };
-		38E7BC68247C4201004E503D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BC67247C4201004E503D /* ViewController.swift */; };
+		38E7BC68247C4201004E503D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BC67247C4201004E503D /* Home.swift */; };
 		38E7BC6B247C4201004E503D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E7BC69247C4201004E503D /* Main.storyboard */; };
 		38E7BC6D247C4204004E503D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E7BC6C247C4204004E503D /* Assets.xcassets */; };
 		38E7BC70247C4204004E503D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E7BC6E247C4204004E503D /* LaunchScreen.storyboard */; };
+		38E7BC7824816724004E503D /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BC7724816724004E503D /* TabController.swift */; };
+		38E7BC7A2485CEF8004E503D /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BC792485CEF7004E503D /* Stats.swift */; };
+		38E7BC7C2485D647004E503D /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BC7B2485D647004E503D /* Menus.swift */; };
+		38E7BC7E2485D651004E503D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BC7D2485D651004E503D /* Settings.swift */; };
+		38E7BC802485D68D004E503D /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E7BC7F2485D68D004E503D /* NavController.swift */; };
+		4BD554C0390531C46DD8AFF0 /* Pods_myDiner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828AB73AFA9CB42C847EA415 /* Pods_myDiner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B1545B28FB177B37B1DAA0 /* Pods-myDiner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDiner.release.xcconfig"; path = "Pods/Target Support Files/Pods-myDiner/Pods-myDiner.release.xcconfig"; sourceTree = "<group>"; };
+		0BDDE66B515544691072F5FA /* Pods-myDiner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDiner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myDiner/Pods-myDiner.debug.xcconfig"; sourceTree = "<group>"; };
+		387DC88424E6F0070059D94F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		387DC88524E6F0070059D94F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		387DC88624E6F0070059D94F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		387DC88724E6F0070059D94F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		38E7BC60247C4201004E503D /* myDiner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myDiner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E7BC63247C4201004E503D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38E7BC65247C4201004E503D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38E7BC67247C4201004E503D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38E7BC67247C4201004E503D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		38E7BC6A247C4201004E503D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38E7BC6C247C4204004E503D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38E7BC6F247C4204004E503D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38E7BC71247C4204004E503D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E7BC7724816724004E503D /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		38E7BC792485CEF7004E503D /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		38E7BC7B2485D647004E503D /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
+		38E7BC7D2485D651004E503D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		38E7BC7F2485D68D004E503D /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		828AB73AFA9CB42C847EA415 /* Pods_myDiner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myDiner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD554C0390531C46DD8AFF0 /* Pods_myDiner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				38E7BC62247C4201004E503D /* myDiner */,
 				38E7BC61247C4201004E503D /* Products */,
+				5CD7B0D6FFB1299B0B136EB4 /* Pods */,
+				8CB3390026E975AF090DE58B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +80,39 @@
 			isa = PBXGroup;
 			children = (
 				38E7BC63247C4201004E503D /* AppDelegate.swift */,
-				38E7BC65247C4201004E503D /* SceneDelegate.swift */,
-				38E7BC67247C4201004E503D /* ViewController.swift */,
+				38E7BC67247C4201004E503D /* Home.swift */,
+				38E7BC7B2485D647004E503D /* Menus.swift */,
+				38E7BC7D2485D651004E503D /* Settings.swift */,
 				38E7BC69247C4201004E503D /* Main.storyboard */,
+				387DC88524E6F0070059D94F /* Roboto-Bold.ttf */,
+				387DC88424E6F0070059D94F /* Roboto-Light.ttf */,
+				387DC88624E6F0070059D94F /* Roboto-Regular.ttf */,
+				387DC88724E6F0070059D94F /* Roboto-Thin.ttf */,
+				38E7BC7F2485D68D004E503D /* NavController.swift */,
+				38E7BC7724816724004E503D /* TabController.swift */,
 				38E7BC6C247C4204004E503D /* Assets.xcassets */,
+				38E7BC792485CEF7004E503D /* Stats.swift */,
 				38E7BC6E247C4204004E503D /* LaunchScreen.storyboard */,
 				38E7BC71247C4204004E503D /* Info.plist */,
 			);
 			path = myDiner;
+			sourceTree = "<group>";
+		};
+		5CD7B0D6FFB1299B0B136EB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BDDE66B515544691072F5FA /* Pods-myDiner.debug.xcconfig */,
+				00B1545B28FB177B37B1DAA0 /* Pods-myDiner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CB3390026E975AF090DE58B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828AB73AFA9CB42C847EA415 /* Pods_myDiner.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38E7BC74247C4204004E503D /* Build configuration list for PBXNativeTarget "myDiner" */;
 			buildPhases = (
+				049A48650FE7DBB0ECA653B9 /* [CP] Check Pods Manifest.lock */,
 				38E7BC5C247C4201004E503D /* Sources */,
 				38E7BC5D247C4201004E503D /* Frameworks */,
 				38E7BC5E247C4201004E503D /* Resources */,
+				7DD8043CFAE3A5F1A81AA59B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +175,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387DC88B24E6F0070059D94F /* Roboto-Thin.ttf in Resources */,
+				387DC88A24E6F0070059D94F /* Roboto-Regular.ttf in Resources */,
 				38E7BC70247C4204004E503D /* LaunchScreen.storyboard in Resources */,
 				38E7BC6D247C4204004E503D /* Assets.xcassets in Resources */,
+				387DC88924E6F0070059D94F /* Roboto-Bold.ttf in Resources */,
+				387DC88824E6F0070059D94F /* Roboto-Light.ttf in Resources */,
 				38E7BC6B247C4201004E503D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		049A48650FE7DBB0ECA653B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myDiner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD8043CFAE3A5F1A81AA59B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myDiner/Pods-myDiner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myDiner/Pods-myDiner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myDiner/Pods-myDiner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38E7BC5C247C4201004E503D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38E7BC68247C4201004E503D /* ViewController.swift in Sources */,
+				38E7BC7E2485D651004E503D /* Settings.swift in Sources */,
+				38E7BC802485D68D004E503D /* NavController.swift in Sources */,
+				38E7BC68247C4201004E503D /* Home.swift in Sources */,
+				38E7BC7A2485CEF8004E503D /* Stats.swift in Sources */,
+				38E7BC7C2485D647004E503D /* Menus.swift in Sources */,
+				38E7BC7824816724004E503D /* TabController.swift in Sources */,
 				38E7BC64247C4201004E503D /* AppDelegate.swift in Sources */,
-				38E7BC66247C4201004E503D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,7 @@
 		};
 		38E7BC75247C4204004E503D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BDDE66B515544691072F5FA /* Pods-myDiner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +401,7 @@
 		};
 		38E7BC76247C4204004E503D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B1545B28FB177B37B1DAA0 /* Pods-myDiner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
