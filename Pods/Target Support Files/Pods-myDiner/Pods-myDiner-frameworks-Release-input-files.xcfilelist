@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-myDiner/Pods-myDiner-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/LinearProgressBar/LinearProgressBar.framework

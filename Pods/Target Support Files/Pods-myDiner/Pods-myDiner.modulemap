@@ -1,0 +1,6 @@
+framework module Pods_myDiner {
+  umbrella header "Pods-myDiner-umbrella.h"
+
+  export *
+  module * { export * }
+}
